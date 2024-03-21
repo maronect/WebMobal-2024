@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: auto;
+    
+}
+.fotos{
+    
+    background-color: green;
+    width: 550px;
+    margin: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color:darkslategrey;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+footer{
+    background-color: gray;
+    position:fixed;
+    font-size: 100px;
+}
+
