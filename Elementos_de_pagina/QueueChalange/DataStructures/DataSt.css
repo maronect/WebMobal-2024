@@ -1,48 +1,70 @@
-*{
-    justify-content: center;
+body {
     background-image: url("/Elementos_de_pagina/imagens/NyNight.jpg");
-    background-size: auto;
-    font-size: 110%;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
-    
+    font-size: 110%;
 }
-body{
-    
-}
-div{
+.back{
     margin-top: 290px;
     align-items: center;
     height: 300px;
     background: rgba(233, 230, 230, 0.31);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.077);
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
-    
+    width: 400px;
+    height: 150px;
     margin: 50px;
     padding: 15px;
 }
 .geral{
     justify-content: center;
     display: flex;
+    margin-left: 450px;
+    width: 1000px;
+}
 
-    opacity: 0.9;
+.bot{    
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
 }
-form{
-    
+.clean{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-label{
-    
-    margin-bottom: 200px;
-    padding-bottom: 2px;
-}
-.itens{
+
+span{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    margin-top: 150px;
+
     background: rgba(233, 230, 230, 0.31);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
-    padding: 40px;
-    
 }
+
+.numberBal{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
 
